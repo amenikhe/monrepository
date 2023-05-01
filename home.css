@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    text-decoration: none;
+    color: #ffffff;
+   
+    }
+    
+body{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./Images/biib.jpg");
+        /* background-color: #ffffff; Used if the image is unavailable */
+        height: 47vw; /* You must set a specified height */
+        width: 70vw;
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        background-repeat: no-repeat;
+      
+}
+
+
+
+
+.logo{
+display: flex;
+flex-direction: row;
+position: absolute;
+top: 1.2vw;
+/* text-transform: uppercase; */
+text-decoration: none;
+font-weight: 900;
+padding-left: 1.5vw;
+
+}
+.logo span{
+    color: tomato;
+    font-weight: bold;
+    font-size: 1rem;
+}
+._Login{
+    margin-left: 75vw;
+    display: flex;
+    flex-direction:row;
+/*     
+    border: 1px solid #fff; */
+}
+._CreateAccount{
+    margin-left:1vw;
+    border: 0.1vw solid transparent;
+  transition: 0.6s ease;
+  font-weight: 500;
+  /* color: rgb(255, 255, 255); */
+}
+._Log{
+
+    border: 0.1vw solid transparent;
+    transition: 0.6s ease;
+    font-weight: 500;
+    
+}
+._CreateAccount:hover{
+    background-color: #936b6b;
+    color: black;
+}
+._Log:hover{
+    background-color: #936b6b;
+    color: black;
+    transition: 0.5s;
+}
+.principale{
+    max-width: 114rem;
+  
+}
+._Verticale{
+    display: flex;
+    flex-direction: column;
+}
+._chercher{
+    padding-top: 13vw;
+    padding-left: 8vw;
+    /* padding-left: 49vw; */
+    font-weight: 4000;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: oblique;
+font-size: 220%;
+font-family: courier;
+}
+._disc{
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+    font-size: 134%;
+   
+}
+._col{
+    margin-top: 5vw;
+    padding-left: 8vw;
+}
+._marg{
+    margin-bottom: 1vw;
+}

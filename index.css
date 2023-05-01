@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    text-decoration: none;
+    color: #ffffff;
+   
+    }
+    
+
+
+._Verticale{
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./Images/books.jpg");
+        /* background-color: #ffffff; Used if the image is unavailable */
+        
+        width: auto;
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        background-repeat: no-repeat;
+        height: 28vw;
+
+}
+
+
+.logo{
+display: flex;
+flex-direction: row;
+position: absolute;
+top: 1.2vw;
+/* text-transform: uppercase; */
+text-decoration: none;
+font-weight: 900;
+padding-left: 2.5vw;
+
+}
+.logo span{
+    color: tomato;
+    font-weight: bold;
+    font-size: 1rem;
+}
+._Login{
+    margin-left: 26vw;
+    display: flex;
+    flex-direction:row;
+/*     
+    border: 1px solid #fff; */
+}
+._CreateAccount{
+    margin-left:1.5vw;
+    border: 0.1vw solid transparent;
+  transition: 0.6s ease;
+  font-weight: 500;
+  /* color: rgb(255, 255, 255); */
+}
+._Log{
+
+    border: 0.1vw solid transparent;
+    transition: 0.6s ease;
+    font-weight: 500;
+    
+}
+._CreateAccount:hover{
+    background-color: #936b6b;
+    color: black;
+}
+._Log:hover{
+    background-color: #936b6b;
+    color: black;
+    transition: 0.5s;
+}
+.principale{
+    max-width: 114rem;
+  
+}
+
+._chercher{
+    padding-top: 9vw;
+    text-align: center;
+    /* padding-left: 49vw; */
+    font-weight: 4000;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: oblique;
+font-size: 220%;
+font-family: courier;
+
+}
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+}
+
+button {
+  background-color: #4d4913;
+  color: rgb(3, 3, 3);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4d4913;
+}
+._disc{
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+    font-size: 134%;
+   
+}
+._col{
+    margin-top: 5vw;
+    padding-left: 8vw;
+}
+._marg{
+    margin-bottom: 1vw;
+}
+.d-flex1 {
+    display: flex !important;
+    margin-left: 40vw;
+  }
+
+  .btn-outline-dark {
+    --bs-btn-color: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: 33, 37, 41;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #212529;
+    --bs-btn-active-border-color: #212529;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #212529;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #212529;
+    --bs-gradient: none;
+  }
+  
+.rounded-pill {
+    border-radius: var(--bs-border-radius-pill) !important;
+  }
+  .bi-person-fill{
+    margin-left: 0.6vw;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+  /* body{
+   background-color:#eee;
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+  } */
+
+  /* .height{
+   height: 100vh;
+  } */
+  
+
+  .search{
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  margin-top:3vw;
+  }
+
+  .search input{
+
+   height: 40px;
+   width: 26vw;
+   text-indent: 25px;
+   border: 2px solid #d6d4d4;
+border-radius: 6vw;
+
+  }
+
+
+  .search input:focus{
+
+   box-shadow: none;
+   border: 2px solid blue;
+
+
+  }
+
+  .search .fa-search{
+
+   position: absolute;
+   top: 20px;
+   left: 16px;
+
+  }
+
+  .search button{
+    border-radius: 5vw;
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   height: 30px;
+   width: 90px;
+   background: rgb(104, 104, 123);
+cursor: pointer;
+  }
+  .d-flex {
+    display: flex !important;
+    margin-left: 35vw;
+  }
+
+  ._Page{
+    display: flex;
+    flex-direction: column;
+  }
+  ._Cards{
+    margin-top: 4vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+
+  /* button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+  /* button:hover {
+    background-color: #0069d9;
+  } */
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 2.8vw;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+    height: 2.5vw;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  /* ._testCards{
+    margin-left: 1.4vw;
+  } */
+  ._cardsHor{
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    height: 30vw;
+    width: 10vw;
+  }
+  
